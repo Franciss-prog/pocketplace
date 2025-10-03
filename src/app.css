@@ -1,3 +1,10 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@theme {
+	--color-light: #dedddb;
+	--color-subLight: #fff5ee;
+	--color-dark: #0d0e0e;
+	--color-subDark: #212122;
+}

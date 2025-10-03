@@ -16,9 +16,7 @@ history of past locations.
 ## Tech Stack
 
 - **Frontend + Backend**: [SvelteKit](https://kit.svelte.dev/)\
-- **Database**: PostgreSQL (Supabase, Neon, or Railway for free
-  hosting)\
-- **ORM**: Prisma or Drizzle\
+- **Database**: PostgreSQL + Supabase
 - **Styling**: TailwindCSS (for responsive, mobile-first UI)\
 - **Deployment**: Vercel (frontend + API routes)\
 - **Auth (future)**: Supabase Auth or Lucia
