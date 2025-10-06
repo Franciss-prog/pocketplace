@@ -9,6 +9,10 @@
 	--color-subDark: #212122;
 }
 
+/* all buttons is pointer by default */
+button {
+	cursor: pointer;
+}
 :root {
 	color-scheme: light dark;
 }
@@ -16,4 +20,5 @@
 body {
 	background-color: light-dark(var(--color-light), var(--color-dark));
 	color: light-dark(var(--color-dark), var(--color-light));
+	font-family: 'Ndot 57 Aligned', sans-serif;
 }

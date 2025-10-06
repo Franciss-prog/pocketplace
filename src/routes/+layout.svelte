@@ -9,4 +9,8 @@
 	<link rel="icon" href={logo} />
 </svelte:head>
 
-{@render children()}
+<main class="h-screen">
+	<section class="h-full w-full p-6">
+		{@render children()}
+	</section>
+</main>
